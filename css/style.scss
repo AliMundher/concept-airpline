@@ -1,0 +1,65 @@
+.td_all {
+  color: white;
+  font-weight: bold;
+}
+.select {
+  font-size: 2.5em;
+  margin-top: 10px;
+  color: #1d5b8c;
+}
+.th_all {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+body {
+  .bg_main {
+    background-image: url('../imgs/dubai.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+    position: relative;
+    .plane {
+      width: 370px;
+      position: absolute;
+      top: 25%;
+      left: 39%;
+    }
+  }
+  .text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    .table_custum {
+      position: relative;
+      top: 277px;
+      width: 800px;
+      .td_1 {
+        td {
+          color: #1d5b8c;
+          font-size: 5em;
+          font-weight: bold;
+          border: 3px solid white;
+        }
+      }
+    }
+  }
+  .ul_center {
+    margin-left: 40%;
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+  .log_in {
+    margin-left: 41%;
+    text-decoration: none;
+  }
+}
+
+// Bootstrap
+.bg-light {
+  background-color: #1d5b8cd6 !important;
+}
